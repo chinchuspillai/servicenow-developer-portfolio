@@ -2,6 +2,7 @@
 A complete ServiceNow Developer portfolio showcasing ITSM projects, automation workflows, CMDB configurations, and real-world enterprise scenarios. Includes incident, change, and service catalog implementations with documentation and screenshots.
 
 📖 Project Overview
+
 This project simulates a real-world ServiceNow Major Incident Management solution for critical infrastructure environments such as Etihad Rail operations and Abu Dhabi Airport systems.
 
 The solution focuses on handling P1 incidents affecting train control systems, baggage handling systems, and operational IT services using ITIL-based processes and ServiceNow ITSM modules.
