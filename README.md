@@ -5,6 +5,7 @@ A complete ServiceNow Developer portfolio showcasing ITSM projects, automation w
 This project simulates a real-world ServiceNow Major Incident Management solution for critical infrastructure environments such as Etihad Rail operations and Abu Dhabi Airport systems.
 
 The solution focuses on handling P1 incidents affecting train control systems, baggage handling systems, and operational IT services using ITIL-based processes and ServiceNow ITSM modules.
+
 🎯 Objective
 
 The main objective of this project is to:
@@ -15,8 +16,8 @@ The main objective of this project is to:
 - Improve communication between technical and business teams
 - Reduce downtime in critical transport operations
 - 🏗️ Real-Life Scenario
-- 
-- ### Etihad Rail Scenario
+
+ ### Etihad Rail Scenario
 A failure occurs in the train signaling system between stations causing service disruption.
 
 ### Airport Scenario
@@ -33,18 +34,17 @@ Both incidents are classified as Major Incidents (P1) requiring immediate escala
 - SLA tracking and escalation rules
 - Incident linking (child incidents under major incident)
 - Post-incident review (PIR) process
-- 
-- 🧰 Technologies Used
-- 
-- - ServiceNow ITSM Module
-- Major Incident Management Plugin
-- Flow Designer
-- Business Rules
-- Assignment Rules
-- Notifications
-- SLA Engine
-- Client Scripts
-- 
+
+ 🧰 Technologies Used
+ - ServiceNow ITSM Module
+ -  Major Incident Management Plugin
+ - Flow Designer
+ - Business Rules
+ - Assignment Rules
+ -  Notifications
+ -  SLA Engine
+ -  Client Scripts
+ 
 🔄 Workflow Process
 1. Incident is created in ServiceNow
 2. System checks priority conditions
@@ -61,8 +61,8 @@ Both incidents are classified as Major Incidents (P1) requiring immediate escala
 - IT Infrastructure Support
 - Application Support Team
 
-  🧠 Business Rule Example
-  // Auto-trigger Major Incident for P1 cases
+🧠 Business Rule Example
+// Auto-trigger Major Incident for P1 cases
 
 if (current.priority == 1) {
     current.major_incident_state = "Accepted";
@@ -79,8 +79,8 @@ Actions:
 - Send email notifications to stakeholders
 - Start SLA timer
 
-  📊 Benefits Achieved
-  - Faster response to critical system failures
+📊 Benefits Achieved
+- Faster response to critical system failures
 - Reduced manual escalation steps
 - Improved coordination between IT teams
 - Better SLA compliance for critical operations
